@@ -55,3 +55,26 @@ person = {
     }
 }
 print(person["family"]["siblings"]["Brother"])
+
+
+
+
+names = str(input("Enter the Name"))
+rev = ""
+
+# Harsini
+for ch in names:
+    rev = ch +rev
+    print(rev)
+    # H
+    # Ha
+
+
+    # H + "" = H
+    # a+H = ah
+    # r+ah = rah
+    # srah
+    # israh
+    # nisrah
+    # inisrah
+# print(rev)
