@@ -72,11 +72,35 @@
 # name = "arun"
 # print(len(name))
 
-print(print('world'))
-# inner print # world
-# outer print # none
+# print(print('world'))
+# # inner print # world
+# # outer print # none
 
-print(bool({}))
+# print(bool({}))
 
 
 
+# message = 'one of the python strengths is its diverse community'
+# print(message)
+
+# a = int(input())
+# while(a!=0):
+#     count = count+1
+#     a= int(input())
+# print(count)
+
+# for i in "String"[::-2]:
+#     print(i)
+
+
+import random
+
+print(random.randrange(2,38,2))
+
+print(int(7.0 + 0.1))
+
+print(str(1.2 * 3.4))
+
+print(float("77" + ".0"))
+
+print(str(9 / 0))
