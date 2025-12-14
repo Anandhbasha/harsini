@@ -82,7 +82,7 @@
 
 
 # Conditional
-userAge = int(input("Enter your Age:"))
+# userAge = int(input("Enter your Age:"))
 
 # if userAge>19:
 #     print("He is Adult")
@@ -99,13 +99,28 @@ userAge = int(input("Enter your Age:"))
 #     print("He is Kid")
 
 
-age = 18
-state = "TN"
+# age = 18
+# state = "TN"
 
-if age >=18:
-    if state=="TN":
-        print("He is Elible to Vote")
-    else:
-        print("He is out of TN")
-else:
-    print("Age is under 18")       
+# if age >=18:
+#     if state=="TN":
+#         print("He is Elible to Vote")
+#     else:
+#         print("He is out of TN")
+# else:
+#     print("Age is under 18")       
+
+
+
+
+# pyramid pattern
+row = int(input("Enter the No of Rows:"))
+for i in range(1,row+1):
+    print(" "*(row-i),"*"*(2*i-1)) #1 #2+1
+
+
+#     *
+#    ***
+#   *****
+#  *******
+# *********
